@@ -106,13 +106,3 @@ cicd-pipeline-demo/
     └── workflows/
         └── pipeline.yml
 ```
-
-## Por qué este proyecto
-
-Separado a propósito de los repos de Python (`ec2-cost-manager`) y de
-Docker (`docker-multistage-optimization`): acá el conocimiento que se
-exhibe es el diseño del pipeline mismo — dependencias entre jobs,
-matrix builds, manejo de secrets, versionado semántico con tags de
-git, y control de despliegue con Environments. Es la pieza que, en una
-entrevista, permite hablar de "cómo pensás la entrega continua",
-más allá de cualquier lenguaje o stack puntual.
